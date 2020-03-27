@@ -68,7 +68,7 @@ Therefore, a HTTP GET request for `http://localhost:5000/Products` should return
 
 Open `http://localhost:5000/Products` in the browser.
 
-Stop your server, and edit `GetAll` so it returns more data.
+Stop your server, and edit `GetAll` so it returns more data. For instance, amend it to serve `"SQL Source Control"` and `"SQL Compare"`.
 
 Open `http://localhost:5000/Products` to see the result.
 
@@ -78,7 +78,7 @@ You can change the URL the server listens to with the `--urls` argument when you
 
 Try `dotnet run --urls="http://*:5000"`
 
-The `*` wildcard means you can access your api using `machine-name:5000`, e.g. `DEV-JOEB:5000`
+The `*` wildcard means you can access your api using `[machine-name]:5000`, e.g. `DEV-JOEB:5000`
 
 ### Build and deploy
 
