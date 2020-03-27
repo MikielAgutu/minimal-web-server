@@ -1,3 +1,4 @@
 **/.vs/**
 WebServer/bin/**
 WebServer/obj/**
+/WebServer/output/**
